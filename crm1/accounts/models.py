@@ -44,7 +44,7 @@ class Order(models.Model):
 			('Delivered', 'Delivered'),
 			)
 
-    # on_delete= models.SET_NULL irá deletar o Customer do Order, mas não irá deletar aquele Order
+    #" on_delete= models.SET_NULL " irá deletar o Customer do Order, mas não irá deletar aquele Order
 	customer = models.ForeignKey(Customer, null=True, on_delete= models.SET_NULL)
 	product = models.ForeignKey(Product, null=True, on_delete= models.SET_NULL)
 	date_created = models.DateTimeField(auto_now_add=True, null=True)
