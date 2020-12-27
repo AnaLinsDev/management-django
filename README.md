@@ -2,8 +2,6 @@
 
  Projeto está sendo feito com o  <a href='https://www.youtube.com/playlist?list=PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO '> tutorial no YouTube</a>
  
- Previsão de acabar: 31/12/2020
- 
  ![image](https://user-images.githubusercontent.com/60307596/103142890-75592480-46ea-11eb-8414-6d0b1f2c7507.png)
  
   O que está sendo ensinado:
