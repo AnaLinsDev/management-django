@@ -3,7 +3,7 @@
 
 <style>
   .hello-msg{
-    font-size: 18px;
+    font-size: 19px;
     color: #fff;
     margin-right: 20px;
   }
@@ -16,7 +16,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-
+      {% if request.user.is_staff %}
       <li class="nav-item active">
         <a class="nav-link" href="{% url 'home' %}">Dashboard</a>
         
@@ -24,14 +24,16 @@
       <li class="nav-item">
         <a class="nav-link" href="{% url 'products' %}">Products</a>
       </li>
-
+      {% else %}
        <li class="nav-item">
-        <a class="nav-link" href="">Settings</a>
+        <a class="nav-link" href="{% url 'account' %}">Settings</a>
       </li>
-
+      {% endif %}
     </ul>
   </div>
 
+  <span class="hello-msg">Hello, {{request.user}}</span>
+  <span ><a  class="hello-msg" href="{% url 'logout' %}">Logout</a></span>
 
 </nav>
     
