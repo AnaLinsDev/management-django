@@ -1,13 +1,19 @@
 # management-django
 
  Projeto está sendo feito com o  <a href='https://www.youtube.com/playlist?list=PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO '> tutorial no YouTube</a><br>
+ <hr>
 Login Page 
 ![image](https://user-images.githubusercontent.com/60307596/103331939-dc5a3e80-4a46-11eb-8d6a-42f42f57fa4e.png)
+ <hr>
 Admin DashBoard
 ![image](https://user-images.githubusercontent.com/60307596/103331959-f4ca5900-4a46-11eb-91aa-6dfe510f7fd8.png)
+ <hr>
+Update do Cliente
+![image](https://user-images.githubusercontent.com/60307596/103332221-0829f400-4a48-11eb-9b2c-84682d0c89f4.png)
+ <hr>
 Customer View
 ![image](https://user-images.githubusercontent.com/60307596/103331984-188d9f00-4a47-11eb-96c2-ac5f9c068047.png)
-
+ <hr>
 
  
   O que está sendo ensinado:
